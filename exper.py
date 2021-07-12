@@ -68,5 +68,3 @@ st.write('')
 st.write('')
 st.write('Бот в Telegram:')
 st.write(' https://t.me/NikiBombinoBot')
-      
-      
