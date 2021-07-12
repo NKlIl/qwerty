@@ -4,11 +4,11 @@ import math
 import pandas as pd
 import streamlit as st
 
-.css-1aumxhk {
-background-color: #011839;
-background-image: none;
-color: #ffffff
-}
+[theme]
+base="light"
+backgroundColor="#dfdfff"
+secondaryBackgroundColor="#a3acbd"
+
 
 st.title('Страновед')
 st.subheader('Этот сайт знает столицу любой страны.')
