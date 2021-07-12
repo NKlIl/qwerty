@@ -66,6 +66,8 @@ local_css("style.css")
 button_clicked = st.button("OK")
 button_clicked = st.button("KO")
 button_clicked = st.button("ignore")
+
+
 body {
   color: #fff;
   background-color: #4f8bf9;
