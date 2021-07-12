@@ -4,34 +4,18 @@ import math
 import pandas as pd
 import streamlit as st
 
-def main():
-    """
-    Heart of the streamlit App
-    """
-    # Some Basic Configuration for StreamLit
-    st.set_page_config(
-        page_title="Your Awesome App Title",
-        page_icon="path_of_your_favicon",
-        layout="wide",
-        initial_sidebar_state="auto",
-    )
-    pages = ["Home", "Page 1", "Page 2"]
-    p_choice = st.sidebar_selectbox("Menu", pages)
-    if p_choice == "Home":
-        local_css("style_1.css") # Relative path of the css file
-        st.title("Some Relevant Info")
-
-    else if p_choice == "Page 2":
-         local_css("style_2.css")
-         st.title("Title of Page 2")
-
 def local_css(file_name):
     with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
-if __name__ ==  "__main__":
-     main()
-      
+def remote_css(url):
+    st.markdown('<style src="{}"></style>'.format(url), unsafe_allow_html=True)
+
+def icon_css(icone_name):
+    remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
+
+def icon(icon_name):
+    st.markdown('<i class="material-icons">{}</i>'.format(icon_name), unsafe_allow_html=True)      
       
 st.title('Страновед')
 st.subheader('Этот сайт знает столицу любой страны.')
