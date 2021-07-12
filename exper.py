@@ -62,3 +62,32 @@ def local_css(file_name):
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 local_css("style.css")
+
+button_clicked = st.button("OK")
+button_clicked = st.button("KO")
+button_clicked = st.button("ignore")
+body {
+  color: #fff;
+  background-color: #4f8bf9;
+}
+
+div.element-container:nth-child(2) button {
+  color: blue;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+}
+
+div.element-container:nth-child(3) button {
+  color: red;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+}
+
+div.element-container:nth-child(4) button {
+  color: grey;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+}
