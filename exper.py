@@ -4,7 +4,7 @@ import math
 import pandas as pd
 import streamlit as st
 
-import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /*
 -----------------------
     MAIN APP
