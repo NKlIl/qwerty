@@ -59,8 +59,5 @@ st.write('')
 st.subheader('Бот в Telegram: https://t.me/NikiBombinoBot')
 
 
-[theme]
-base="light"
-backgroundColor="#dfdfff"
-secondaryBackgroundColor="#a3acbd"
+
 
