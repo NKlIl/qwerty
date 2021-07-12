@@ -43,7 +43,6 @@ else:
 
       
       
-      
-  st.write(' https://t.me/NikiBombinoBot')
+st.write(' https://t.me/NikiBombinoBot')
       
       
