@@ -4,7 +4,7 @@ import math
 import pandas as pd
 import streamlit as st
 
-primaryColor = '#7792E3'
+primaryColor = '#F63366'
 backgroundColor = '#273346'
 secondaryBackgroundColor = '#B9F1C0'
 textColor = '#FFFFF'
