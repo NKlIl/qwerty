@@ -4,14 +4,11 @@ import math
 import pandas as pd
 import streamlit as st
 
-st.markdown("""
-<style>
-body {
-    color: #fff;
-    background-color: #222;
-}
-</style>
-    """, unsafe_allow_html=True)
+primaryColor = '#7792E3'
+backgroundColor = '#273346'
+secondaryBackgroundColor = '#B9F1C0'
+textColor = '#FFFFFF'
+font = "sans serif"
 
 st.title('Страновед')
 st.subheader('Этот сайт знает столицу любой страны.')
