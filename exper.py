@@ -53,6 +53,7 @@ st.write('')
 st.write('')
 st.write('')
 st.write('')
-st.write('')st.write(' https://t.me/NikiBombinoBot')
+st.write('')
+st.write(' https://t.me/NikiBombinoBot')
       
       
