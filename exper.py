@@ -54,6 +54,4 @@ st.write('')
 st.write('')
 st.subheader('Бот в Telegram: https://t.me/NikiBombinoBot')
 
-st.title('Страновед')
-st.subheader('Этот сайт знает столицу любой страны.')
 
