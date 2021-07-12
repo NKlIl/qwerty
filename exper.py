@@ -5,9 +5,9 @@ import pandas as pd
 import streamlit as st
 
 primaryColor = '#F63366'
-backgroundColor = '#273346'
-secondaryBackgroundColor = '#B9F1C0'
-textColor = '#FFFFF'
+backgroundColor = '#F63366'
+secondaryBackgroundColor = '#F63366'
+textColor = '#F63366'
 font = "sans serif"
 
 st.title('Страновед')
