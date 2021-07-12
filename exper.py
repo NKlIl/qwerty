@@ -6,7 +6,7 @@ import streamlit as st
 
 st.title('Страновед')
 st.subheader('Этот сайт знает столицу любой страны.')
-st.markdown('  https://t.me/NikiBombinoBot')
+
 
 balloons = st.text_input("Напишите ниже страну или её флаг.")
 if balloons == "Россия":
@@ -40,6 +40,10 @@ else:
       st.error('Error')    
 
       
-st.write(' https://t.me/NikiBombinoBot')
+
+      
+      
+      
+  st.write(' https://t.me/NikiBombinoBot')
       
       
