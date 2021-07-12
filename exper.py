@@ -20,15 +20,11 @@ def main():
     if p_choice == "Home":
         local_css("style_1.css") # Relative path of the css file
         st.title("Some Relevant Info")
-         .
-         .
-         .
+
     else if p_choice == "Page 2":
          local_css("style_2.css")
          st.title("Title of Page 2")
-          .
-          .
-          .
+
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
