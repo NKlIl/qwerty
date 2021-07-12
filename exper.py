@@ -34,4 +34,7 @@ elif balloons == '🇳🇦':
 elif balloons == 'намибия':
       st.success('Столица Намибии Виндхук 🇳🇦.')
 elif balloons == '':
-      st.success('M')      
+      st.success('Здесь появится ответ.')    
+      
+else:
+      st.error('Error')    
