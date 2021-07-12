@@ -7,7 +7,7 @@ import streamlit as st
 primaryColor = '#7792E3'
 backgroundColor = '#273346'
 secondaryBackgroundColor = '#B9F1C0'
-textColor = '#FFFFFF'
+textColor = '#FFFFF'
 font = "sans serif"
 
 st.title('Страновед')
