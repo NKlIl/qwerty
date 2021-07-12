@@ -1,10 +1,8 @@
-import streamlit as st
+from collections import namedtuple
+import altair as alt
+import math
 import pandas as pd
-import numpy as np
-import pandas as pd
-import time
 import streamlit as st
-import plotly.express as px
 
 st.title('Страновед 🌐')
 st.subheader('Этот сайт знает столицу любой страны.')
