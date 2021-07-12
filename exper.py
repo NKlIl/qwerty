@@ -38,3 +38,8 @@ elif balloons == '':
       
 else:
       st.error('Error')    
+
+      
+st.write(' https://t.me/NikiBombinoBot')
+      
+      
