@@ -4,16 +4,6 @@ import math
 import pandas as pd
 import streamlit as st
 
-st.markdown("""
-<style>
-body {
-    color: #fff;
-    background-color: #111;
-}
-</style>
-    """, unsafe_allow_html=True)st.title('Страновед')
-st.subheader('Этот сайт знает столицу любой страны.')
-
 
 balloons = st.text_input("Напишите ниже страну или её флаг.")
 if balloons == "Россия":
@@ -61,3 +51,14 @@ st.write('')
 st.write('')
 st.write('')
 st.subheader('Бот в Telegram: https://t.me/NikiBombinoBot')
+
+st.markdown("""
+<style>
+body {
+    color: #fff;
+    background-color: #111;
+}
+</style>
+    """, unsafe_allow_html=True)st.title('Страновед')
+st.subheader('Этот сайт знает столицу любой страны.')
+
