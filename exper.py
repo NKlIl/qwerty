@@ -4,10 +4,8 @@ import math
 import pandas as pd
 import streamlit as st
 
-body {
-  color: #fff;
-  background-color: #4f8bf9;
-}
+body {color: #fff; 
+      background-color: #4f8bf9;}
 
 div.element-container:nth-child(2) button {
   color: blue;
