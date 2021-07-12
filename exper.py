@@ -4,11 +4,30 @@ import math
 import pandas as pd
 import streamlit as st
 
-primaryColor = '#F63366'
-backgroundColor = '#F63366'
-secondaryBackgroundColor = '#F63366'
-textColor = '#F63366'
-font = "sans serif"
+body {
+  color: #fff;
+  background-color: #4f8bf9;
+}
+
+div.element-container:nth-child(2) button {
+  color: blue;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+}
+
+div.element-container:nth-child(3) button {
+  color: red;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
+}
+
+div.element-container:nth-child(4) button {
+  color: grey;
+  border-radius: 50%;
+  height: 3em;
+  width: 3em;
 
 st.title('Страновед')
 st.subheader('Этот сайт знает столицу любой страны.')
