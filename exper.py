@@ -39,6 +39,8 @@ st.write('')
 st.write('')
 st.write('')
 st.write('')
+st.write('')
+st.write('')
 st.subheader('Бот в Telegram: https://t.me/NikiBombinoBot')
 
 
