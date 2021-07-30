@@ -57,9 +57,40 @@ elif balloons == 'Канада':
 elif balloons == 'Canada':             
       st.success('Ottawa, the capital of Canada 🇨🇦.')     
 elif balloons == "🇳🇴":
+      st.success( 'Столица Норвегии, Осло 🇳🇴.')      
+elif balloons == 'Норвегия':
       st.success( 'Столица Норвегии, Осло 🇳🇴.')
-      
-      
+elif balloons == Norway':
+      st.success( 'The capital of Norway, Oslo 🇳🇴.')
+elif balloons == '🇯🇵':
+      st.success( 'Столица Японии, Токио 🇯🇵.')
+elif balloons == Япония':
+      st.success( 'Столица Японии, Токио 🇯🇵.')
+elif balloons == 'Japan':
+      st.success( 'Capital of Japan, Tokyo 🇯🇵.')                
+elif balloons == '🇨🇳':
+      st.success( "Столица Китайской Народный Республики, Пекин 🇨🇳.")        
+elif balloons == 'КНР':
+      st.success( 'Столица КНР, Пекин 🇨🇳.')
+elif balloons == 'Китайская Народная Республика':
+      st.success( 'Столица Китайской Народный Республики, Пекин 🇨🇳.')  
+elif balloons == 'Китай':
+      st.success( 'Столица Китая, Пекин 🇨🇳.')        
+elif balloons == 'PRC':
+      st.success( "Capital of the People's Republic of China, Beijing 🇨🇳.")    
+elif balloons == "People' s Republic of China":
+      st.success( "Capital of the People's Republic of China, Beijing 🇨🇳.")
+elif balloons == 'China'^
+      st.success( 'Capital of China, Beijing 🇨🇳.')     
+elif balloons == '🇹🇼':
+      st.success( 'Столица Китайской Республики (Тайваня), Тайбэй 🇹🇼.')
+elif balloons == 'Китайская Республика':
+      st.success( 'Столица Китайской Республики (Тайваня), Тайбэй 🇹🇼.')
+elif balloons == 'Republic of China':
+      st.success( 'Capital of the Republic of China (Taiwan), Taipei 🇹🇼.')    
+elif balloons == 'Тайвань':
+      st.success( 'Столица Тайваня, Тайбэй 🇹🇼.')
+     
       
       
       
