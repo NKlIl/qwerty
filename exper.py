@@ -283,17 +283,17 @@ elif balloons == 'Словения':
 elif balloons == 'Slovenia':
       st.success( 'The capital of Slovenia, Ljubljana 🇸🇮.')
 elif balloons == '🇳🇬':
-      st.success( 'Столица Нигерии Абуджа 🇳🇬.')   
+      st.success( 'Столица Нигерии, Абуджа 🇳🇬.')   
 elif balloons == 'Нигерия':
-      st.success( 'Столица Нигерии Абуджа 🇳🇬.')   
+      st.success( 'Столица Нигерии, Абуджа 🇳🇬.')   
 elif balloons == 'Nigeria':
-      st.success( 'Capital of Nigeria Abuja 🇳🇬.')   
+      st.success( 'Capital of Nigeria, Abuja 🇳🇬.')   
 elif balloons == '🇦🇷':
-      st.success( 'Столица Аргентины Буэнос-Айрес 🇦🇷.')
+      st.success( 'Столица Аргентины, Буэнос-Айрес 🇦🇷.')
 elif balloons == 'Аргентина':
-      st.success( 'Столица Аргентины Буэнос-Айрес 🇦🇷.')
+      st.success( 'Столица Аргентины, Буэнос-Айрес 🇦🇷.')
 elif balloons == 'Argentina':
-      st.success( 'The capital of Argentina is Buenos Aires 🇦🇷.')
+      st.success( 'The capital of Argentina, is Buenos Aires 🇦🇷.')
                   
 
 
