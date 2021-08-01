@@ -89,8 +89,55 @@ elif balloons == 'Китайская Республика':
 elif balloons == 'Republic of China':
       st.success( 'Capital of the Republic of China (Taiwan), Taipei 🇹🇼.')    
 elif balloons == 'Тайвань':
-      st.success( 'Столица Тайваня, Тайбэй 🇹🇼.')
-     
+      st.success( 'Столица Тайваня, Тайбэй 🇹🇼.')     
+elif balloons == 'Taiwan':
+      st.success( 'Capital of Taiwan, Taipei 🇹🇼.')       
+elif balloons == '🇫🇷':
+      st.success( 'Столица Франции, Париж 🇫🇷.')
+elif balloons == 'Франция':
+      st.success( 'Столица Франции, Париж 🇫🇷.')
+elif balloons == 'France':
+      st.success( 'The capital of France is Paris 🇫🇷.')  
+elif balloons == '🇵🇦':
+      st.success( 'Столица Панамы, Панама 🇵🇦.')      
+elif balloons == 'Панама':
+      st.success( 'Столица Панамы, Панама 🇵🇦.') 
+elif balloons == 'Panama':
+      st.success( 'Capital of Panama, Panama 🇵🇦.')    
+elif balloons == '🇦🇹':
+      st.success( 'Столица Австрии, Вена 🇦🇹.')           
+elif balloons == 'Австрия':
+      st.success( 'Столица Австрии, Вена 🇦🇹.')
+elif balloons == 'Austria':
+      st.success( 'Capital of Austria, Vienna 🇦🇹.')   
+elif balloons == '🇧🇾':
+      st.success( 'Столица Белоруссии, Минск 🇧🇾.')
+elif balloons == 'Белоруссия':
+      st.success( 'Столица Белоруссии, Минск 🇧🇾.')
+elif balloons == 'Беларусь':
+      st.success( 'Столица Белоруссии, Минск 🇧🇾.')   
+elif balloons == 'Belarus':
+      st.success( 'The capital of Belarus, Minsk 🇧🇾.')
+elif balloons == '🇧🇪':
+      st.success( 'Столица Бельгии, Брюссель 🇧🇪.')
+elif balloons == 'Бельгия':
+      st.success( 'Столица Бельгии, Брюссель 🇧🇪.')
+elif balloons == 'Belgium':
+      st.success( 'The capital of Belgium, Brussels 🇧🇪.')        
+elif balloons == '🇧🇬':
+      st.success( 'Столица Болгарии, София 🇧🇬.')
+elif balloons == 'Болгария':
+      st.success( 'Столица Болгарии, София 🇧🇬.')
+elif balloons == 'Bulgaria':
+      st.success( 'The capital of Bulgaria, Sofia 🇧🇬.')    
+elif balloons == '🇻🇦':
+      st.success( 'Столица Ватикана, Ватикан 🇻🇦.')
+elif balloons == 'Ватикан':
+      st.success( 'Столица Ватикана, Ватикан 🇻🇦.)
+elif balloons == 'Vatican':
+      st.success( 'Capital of the Vatican, Vatican 🇻🇦.')
+elif balloons == '🇭🇺':
+      st.success( 'Столица Венгрии, Будапешт 🇭🇺.') 
       
       
       
