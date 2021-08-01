@@ -133,7 +133,7 @@ elif balloons == 'Bulgaria':
 elif balloons == '🇻🇦':
       st.success( 'Столица Ватикана, Ватикан 🇻🇦.')
 elif balloons == 'Ватикан':
-      st.success( 'Столица Ватикана, Ватикан 🇻🇦.)
+      st.success( 'Столица Ватикана, Ватикан 🇻🇦.')
 elif balloons == 'Vatican':
       st.success( 'Capital of the Vatican, Vatican 🇻🇦.')
 elif balloons == '🇭🇺':
