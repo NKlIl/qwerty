@@ -60,11 +60,11 @@ elif balloons == "🇳🇴":
       st.success( 'Столица Норвегии, Осло 🇳🇴.')      
 elif balloons == 'Норвегия':
       st.success( 'Столица Норвегии, Осло 🇳🇴.')
-elif balloons == Norway':
+elif balloons == 'Norway':
       st.success( 'The capital of Norway, Oslo 🇳🇴.')
 elif balloons == '🇯🇵':
       st.success( 'Столица Японии, Токио 🇯🇵.')
-elif balloons == Япония':
+elif balloons == 'Япония':
       st.success( 'Столица Японии, Токио 🇯🇵.')
 elif balloons == 'Japan':
       st.success( 'Capital of Japan, Tokyo 🇯🇵.')                
