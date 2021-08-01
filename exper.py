@@ -80,7 +80,7 @@ elif balloons == 'PRC':
       st.success( "Capital of the People's Republic of China, Beijing 🇨🇳.")    
 elif balloons == "People' s Republic of China":
       st.success( "Capital of the People's Republic of China, Beijing 🇨🇳.")
-elif balloons == "China"
+elif balloons == "China":
       st.success( 'Capital of China, Beijing 🇨🇳.')     
 elif balloons == '🇹🇼':
       st.success( 'Столица Китайской Республики (Тайваня), Тайбэй 🇹🇼.')
