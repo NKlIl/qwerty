@@ -4,7 +4,7 @@ import math
 import pandas as pd
 import streamlit as st
 
-st.title('Страновед')
+st.title('Странбот')
 st.subheader('Этот сайт знает столицу любой страны.')
 
 balloons = st.text_input("Напишите ниже страну или её флаг.")
