@@ -4,6 +4,13 @@ import math
 import pandas as pd
 import streamlit as st
 
+[theme]
+primaryColor="#F63366"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#262730"
+font="sans serif"
+
 st.title('Странбот')
 st.subheader('Этот сайт знает столицу любой страны.')
 
@@ -22,10 +29,7 @@ elif balloons == "🇷🇺 ":
       st.success("Столица России, Москва 🇷🇺.")
 elif balloons == '':
       st.success('Здесь появится ответ.')    
-elif balloons == "7":
-      st.balloons()
-elif balloons == "8":
-      st.balloons('Здесь появится ответ.')      
+    
       
 elif balloons == '🇺🇸':
       st.success('Столица США, Вашингтон 🇺🇸.')   
