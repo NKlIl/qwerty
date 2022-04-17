@@ -24,7 +24,8 @@ elif balloons == '':
       st.success('Здесь появится ответ.')    
 elif balloons == "7":
       st.balloons()
-      
+elif balloons == "8":
+      st.balloons('Здесь появится ответ.')      
       
 elif balloons == '🇺🇸':
       st.success('Столица США, Вашингтон 🇺🇸.')   
