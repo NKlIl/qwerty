@@ -4,7 +4,6 @@ import math
 import pandas as pd
 import streamlit as st
 
-[theme]
 primaryColor="#F63366"
 backgroundColor="#FFFFFF"
 secondaryBackgroundColor="#F0F2F6"
