@@ -10,7 +10,16 @@ secondaryBackgroundColor="#F0F2F6"
 textColor="#262730"
 font="monospace"
 
-st.title('Странбот 🌐')
+st.write('')
+st.write('')
+st.write('')
+st.write('')
+st.write('')
+st.write('')
+st.write('')
+st.write('')
+st.write('')
+st.title('Stranbot 🌐')
 st.subheader('Этот бот знает столицу любой страны.')
 
 balloons = st.text_input("Впишите ниже название страны или её флаг.")
